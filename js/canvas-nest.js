@@ -37,7 +37,7 @@
     let canvas = document.createElement("canvas");
     let int = Math.floor;
     let abs = Math.abs;
-    canvas.id = `canvas-nest-${config.l}`;
+    canvas.id = `canvas-nest-15`;
     canvas.style.cssText = `position:fixed;top:0;left:0;z-index:${config.z};opacity:${config.o}`
     get_by_tagname("body")[0].appendChild(canvas);
 

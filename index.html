@@ -32,8 +32,12 @@
 
 <body class="homepage">
 
+	<script type="text/javascript" src="js/canvas-nest.js" count="90" color="75,255,231" opacity="1"></script>
+	<canvas id="canvas-nest-15" width="1536" height="1070"
+		style="position: fixed; top: 0px; left: 0px; z-index: -1; opacity: 1;"></canvas>
+
 	<!-- Header -->
-	<div id="header">
+	<div id="header" style="z-index: 1;opacity: 0.7;">
 		<div class="container">
 
 			<!-- Logo -->
@@ -65,7 +69,7 @@
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1"></li>
 			<li data-target="#myCarousel" data-slide-to="2"></li>
-			<li data-target="#myCarousel" data-slide-to="3"></li>
+
 		</ol>
 
 
@@ -73,36 +77,30 @@
 		<div class="carousel-inner" role="listbox">
 
 			<div class="item active">
-				<img src="images/tree1.jpg" alt="Chania" width="460" height="345">
+				<img src="images/personal.png" alt="Chania" width="460" height="345">
 				<div class="carousel-caption">
-					<h3>Chania</h3>
-					<p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+					<h3>時花凍</h3>
+
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="images/tree2.jpg" alt="Chania" width="460" height="345">
+				<img src="images/carousel1.png" alt="Chania" width="460" height="345">
 				<div class="carousel-caption">
-					<h3>Chania</h3>
-					<p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+					<h3>智慧型遊民</h3>
+
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="images/tree3.jpg" alt="Flower" width="460" height="345">
+				<img src="images/carousel2.png" alt="Flower" width="460" height="345">
 				<div class="carousel-caption">
-					<h3>Flowers</h3>
-					<p>Beautiful flowers in Kolymbari, Crete.</p>
+					<h3>話不多的貓</h3>
+
 				</div>
 			</div>
 
-			<div class="item">
-				<img src="img_flower2.jpg" alt="Flower" width="460" height="345">
-				<div class="carousel-caption">
-					<h3>Flowers</h3>
-					<p>Beautiful flowers in Kolymbari, Crete.</p>
-				</div>
-			</div>
+
 
 			<!-- Left and right controls -->
 			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -133,23 +131,16 @@
 						<header>
 							<h2>您好! 我是時花凍</h2>
 							<span class="byline">Hey! I'm Frozen in Time.</span>
-						</header><a href="#" class="image full"><img src="images/personal.jpg" alt="" width="700"
+						</header><a href="#" class="image full"><img src="images/personal.png" alt="" width="700"
 								height="260"></a>
-						<p>This is <strong>Iridium</strong>, a responsive HTML5 site template freebie by <a
-								href="http://templated.co">TEMPLATED</a>. Released for free under the <a
-								href="http://templated.co/license">Creative Commons Attribution</a> license, so use
-							it
-							for whatever (personal or commercial) – just give us credit! Check out more of our stuff
-							at
-							<a href="http://templated.co">our site</a> or follow us on <a
-								href="http://twitter.com/templatedco">Twitter</a>.
-						</p>
-						<p>Sed etiam vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum
-							pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit
-							augue
-							justo quis nisl. Fusce mattis viverra elit. Fusce quis tortor. Consectetuer adipiscing
-							elit.
-							Nam pede erat, porta eu, lobortis eget lorem ipsum dolor.</p>
+						
+						<p>「時花凍」，是一個專注於創造獨特、豐富多彩的遊戲體驗的遊戲設計工作室。我們的名字取自於時間與美麗的凍結，象徵著我們致力於在遊戲中捕捉美妙瞬間並將其永久凝固的理念。
+
+							我們的團隊充滿對創意和遊戲設計的熱情，不斷探索創新的故事性、視覺效果和遊戲機制。透過結合精湛的技術和豐富的想像力，我們努力打造令人著迷的遊戲世界，讓玩家能夠沉浸其中，感受到獨特的情感與挑戰。
+							
+							我們的作品跨足多個遊戲平台，從引人入勝的敘事冒險到引人入神的益智遊戲，甚至探索虛擬實境與擴增實境的可能性。時花凍希望每個遊戲都能成為一場旅程，將玩家帶入豐富多元的遊戲體驗，激發情感共鳴和深刻的思考。
+							
+							我們以獨特的視角和熱忱致力於為遊戲界注入創新，時花凍將持續努力，帶來更多令人驚嘆的遊戲作品，與全球玩家分享我們對遊戲的熱愛和才華。</p>
 					</section>
 				</div>
 
@@ -157,25 +148,30 @@
 				<div id="sidebar" class="4u">
 					<section>
 						<header>
-							<h2>Pellentesque vulputate</h2>
+							<h2>好笑的冷知識</h2>
 						</header>
 						<ul class="style">
 							<li>
 								<p class="posted">October 26, 2023 | (10 ) Comments</p>
-								<img src="images/pic04.jpg" alt="" width="70" height="70">
-								<a href="website/indexMmanzai.html"><p class="text"><br>了解日本喜劇 “漫才”</p></a>
-								
+								<img src="images/sidebar.jpg" alt="" width="70" height="70">
+								<a href="website/indexMmanzai.html">
+									<p class="text"><br>了解日本喜劇 “漫才”</p>
+								</a>
+
 							</li>
 							<li>
 								<p class="posted">October 27, 2023 | (10 ) Comments</p>
-								<img src="images/pic05.jpg" alt="" width="70" height="70">
-								<a href="website/comedy.html"><p class="text"><br>關於喜劇與悲劇價值思辨</p></a>
+								<img src="images/sidebar2.jpg" alt="" width="70" height="70">
+								<a href="website/comedy.html">
+									<p class="text"><br>關於喜劇與悲劇價值思辨</p>
+								</a>
 							</li>
 							<li>
-								<p class="posted">August 11, 2002 | (10 ) Comments</p>
-								<img src="images/pic06.jpg" alt="" width="70" height="70">
-								<p class="text">Nullam non wisi a sem eleifend. Donec mattis libero eget urna.
-									Pellentesque viverra enim.</p>
+								<p class="posted">November 09, 2023 | (10 ) Comments</p>
+								<img src="images/sidebar3.jpg" alt="" width="70" height="70">
+								<a href="https://www.domorenovel.com/%E3%80%90%E5%B9%BD%E9%BB%98%E5%96%9C%E5%8A%87%E3%80%91%E6%90%9E%E7%AC%91%E5%96%9C%E5%8A%87%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8A%9F%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F/">
+									<p class="text"><br>寫搞笑喜劇的基本功是什麼？</p>
+								</a>
 							</li>
 						</ul>
 					</section>
@@ -189,28 +185,22 @@
 		<div class="container">
 			<div class="row">
 				<div class="4u">
-					<h2>Aenean elementum facilisis</h2>
-					<a href="#" class="image full"><img src="images/pic01.jpg" alt="" width="314" height="144"></a>
-					<p>Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Donec leo, vivamus
-						fermentum nibh in augue praesent a lacus at urna congue rutrum. Quisque dictum. Pellentesque
-						viverra vulputate enim.</p>
-					<p><a href="#" class="button">More Details</a></p>
+					<h2>幕後的遊戲創作者每週工作100小時</h2>
+					<a href="#" class="image full"><img src="images/lowbar1.jpg" alt="" width="314" height="144"></a>
+					<p>每一個你熱愛的遊戲，背後藏著無數血汗辛勞，例如在遊戲發表前員工們一週至少要工作100個小時，無加班費可領，而這些遊戲創作者的生命已燃燒殆盡，並期待改變。</p>
+					<p><a href="https://www.thenewslens.com/feature/timefortune/121639" class="button">More Details</a></p>
 				</div>
 				<div class="4u">
-					<h2>Fusce ultrices fringilla</h2>
-					<a href="#" class="image full"><img src="images/pic02.jpg" alt="" width="314" height="144"></a>
-					<p>Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Donec leo, vivamus
-						fermentum nibh in augue praesent a lacus at urna congue rutrum. Quisque dictum. Pellentesque
-						viverra vulputate enim.</p>
-					<p><a href="#" class="button">More Details</a></p>
+					<h2>以「使用者」為中心的設計思考</h2>
+					<a href="#" class="image full"><img src="images/lowbar2.jpg" alt="" width="314" height="144"></a>
+					<p>「設計思考」總共有5個步驟，分別是 同理→定義→發想→原型→測試，透過這5個步驟的設計流程，不斷的反覆測試與回頭修改後，我們將可以更有效率的設計出更貼近使用者需求的產品。</p>
+					<p><a href="https://medium.com/as-a-product-designer/%E4%BB%A5-%E4%BD%BF%E7%94%A8%E8%80%85-%E7%82%BA%E4%B8%AD%E5%BF%83%E7%9A%84%E8%A8%AD%E8%A8%88%E6%80%9D%E8%80%835%E6%AD%A5%E9%A9%9F-13660bb1108f" class="button">More Details</a></p>
 				</div>
 				<div class="4u">
-					<h2>Etiam rhoncus volutpat erat</h2>
-					<a href="#" class="image full"><img src="images/pic03.jpg" alt="" width="314" height="144"></a>
-					<p>Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Donec leo, vivamus
-						fermentum nibh in augue praesent a lacus at urna congue rutrum. Quisque dictum. Pellentesque
-						viverra vulputate enim.</p>
-					<p><a href="#" class="button">More Details</a></p>
+					<h2>為何遊戲讓人沉迷</h2>
+					<a href="#" class="image full"><img src="images/lowbar3.jpg" alt="" width="314" height="144"></a>
+					<p>我們之所以沉迷電子遊戲，主要是電子遊戲有即時的正面回饋系統，這是所有虛擬世界（如社交媒體）的共同特點。人類對正面的回饋是十分敏銳，如果某行為所得正面反應越快，那麼便獲得更大的動機和快感。</p>
+					<p><a href="https://www.storm.mg/lifestyle/173623?page=1" class="button">More Details</a></p>
 				</div>
 			</div>
 		</div>

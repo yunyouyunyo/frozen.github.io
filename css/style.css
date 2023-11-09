@@ -69,7 +69,8 @@ i {
 /* Don't forget to set this to something that matches the design */
 a {
 	text-decoration: underline;
-	color: #272727;
+	color: #575656;
+	opacity: 1;
 }
 
 a:hover {
@@ -104,14 +105,17 @@ ul,
 ol,
 dl,
 table {
-	margin-bottom: 1em;
+	margin-bottom: 0em;
+	margin-top: 1em;
 }
 
 header {
 	margin-bottom: 1em;
 }
 
-header h2 {}
+header h2 {
+	
+}
 
 header .byline {
 	display: block;
@@ -167,6 +171,12 @@ article:last-child {
 	margin: 0 0 2em 0;
 
 }
+.image.featuredg {
+	display: block;
+	width: 100%;
+	margin: 0 0 2em 0;
+
+}
 
 .image.full {
 	display: block;
@@ -212,8 +222,9 @@ ul.default li:first-child {
 
 ul.default a {
 	text-decoration: none;
-	color: rgba(36, 36, 36, 0.5);
+	color: rgba(255, 255, 255, 0.753);
 	font-weight: bold;
+	
 }
 
 ul.default a:hover {
@@ -239,7 +250,9 @@ ul.style img {
 	margin-right: 20px;
 }
 
-ul.style p {}
+ul.style p {
+	color: #383737;
+}
 
 ul.style .posted {
 	padding: 0em 0em 1em 0em;
@@ -260,9 +273,11 @@ ul.style .first {
 .button {
 	position: relative;
 	display: inline-block;
-	margin-top: 2em;
+	margin-top: 1.5em;
+	margin-bottom: 4em;
+	margin-left: 5.2em;
 	padding: 0.90em 1.5em;
-	background: #595959;
+	background: #b50426;
 	border-radius: 40px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -277,7 +292,7 @@ ul.style .first {
 }
 
 .button:hover {
-	background: #A69785;
+	background: #d94a56;
 	color: #FFF !important;
 }
 
@@ -287,7 +302,7 @@ ul.style .first {
 
 #header {
 	position: relative;
-	background: #2a2f27 url(../images/banner_new.jpg) no-repeat;
+	background: #000000 ;
 	background-size: cover;
 }
 
@@ -315,22 +330,29 @@ ul.style .first {
 
 #main {
 	position: relative;
-	background: #fff;
+	background: #F2EBDC;
 }
-
+#maing {
+	position: relative;
+	background: #020202;
+}
 /*********************************************************************************/
 /* Featured                                                                      */
 /*********************************************************************************/
 
 #featured {
 	position: relative;
-	background: #f2f2f2;
+	background: #f2ebdc;
 }
+
 
 #featured h2 {
 	display: block;
 	margin-bottom: 2em;
-	font-size: 1.4em;
+	
+	font-size: 1.5em;
+	color: #4c4c4c;
+	text-align: center;
 }
 
 /*********************************************************************************/
@@ -339,13 +361,10 @@ ul.style .first {
 
 #footer {
 	position: relative;
-	background: #D9CEC1;
+	background: #1f1f1f;
 }
 
-#footer h2 {
-	display: block;
-	color: #474747;
-}
+
 
 /*********************************************************************************/
 /* Copyright                                                                     */
@@ -363,18 +382,18 @@ ul.style .first {
 
 #copyright a {
 	text-decoration: none;
-	color: rgba(255, 255, 255, .3);
+	color: rgba(255, 255, 255, 0.3);
 }
 
 /* Carousel */
 .carousel {
-	background-color: #A69785;
+	background-color: #f2ebdc;
 }
 
 .carousel-inner>.item>img,
 .carousel-inner>.item>a>img {
-	width: 70%;
-	height: 360px;
+	width: 80%;
+	height: 660px;
 	object-fit: cover;
 	margin: auto;
 }
